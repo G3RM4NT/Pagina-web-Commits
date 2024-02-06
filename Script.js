@@ -1,8 +1,8 @@
 
 var bu = document.getElementById('b');
-var no = document.getElementById('n').value;
+var no = document.getElementById('n');
 
 function ShowName()
 {
-    alert('Hola ' + no);
+    alert('Bienvenido ' + no.value +'!!');
 }

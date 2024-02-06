@@ -1,17 +1,18 @@
-* {
+* 
+{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
 }
 button {
     background-color: chartreuse;
 }
 
-.n {
-    width: 200px;
-    height: 50px;
-}
-
-.n2 {
-    width: 200px;
-    height: 50px;
+input
+{
+    margin: 5%;
+    width: 50vh;
+    height: 3vh;
 }
